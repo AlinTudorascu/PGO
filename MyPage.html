@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title>Pokemon GO</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+	
+	.goLogo {
+		height:240%;
+		margin-top:-15px;
+	}
+	.home {
+		background-image:url("home0.jpg");
+		height:890px;
+		width:100%;
+		background-size:cover;
+	}
+	
+	#topRow{
+		margin-top:100px;
+		text-align:center;
+		color:#063375;
+		
+	}
+	
+	.center {
+		text-align:center; 
+		color:#063375;
+	}
+	
+	h1 {
+		font-size:3em;
+		font-weight:bold;
+	}
+	
+	.marginTop {
+		margin-top:20px;
+	}
+	
+	.aboutP {
+		margin-top:20px;
+		font-weight:bold;
+		text-align:center;
+		color:#063375;
+	}
+	
+	.download{
+		background-image:url("home.jpg");
+		height:1100px;
+		width:100%;
+		background-size:cover;
+	}
+	
+	#google {
+	text-align:center;
+	}
+	
+	</style>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				
+				<a class="navbar-brand" href="file:///E:/Stuffs/HTML/MyPage.html">
+					<img alt="Brand" class="goLogo" src="https://upload.wikimedia.org/wikipedia/en/4/46/Pokemon_Go.png">
+				</a>
+				
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			
+			 <div class="collapse navbar-collapse" id="scr">
+				 <ul class="nav navbar-nav">
+					<li class="active"><a href="#top">Home</a></li>
+					<li><a href="#content">About</a></li>
+					<li><a href="#downl">Download</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container home" id="top">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3" id="topRow">
+				
+				<h1>Pokemon Go</h1>
+				<p class="lead marginTop"> <b>Is a free-to-play location-based augmented reality mobile game developed by Niantic</b></p>
+				<p class="lead marginTop"><b>You can subscribe to our newsletter</b></p>
+				<form>
+					<div class="input-group marginTop">
+						<span class="input-group-addon">@</span>
+						<input type="email" class="form-control" placeholder="Your email"/>
+					</div>
+					<input type="submit" class="btn btn-success btn-lg marginTop" value="Submit"/>
+				</form>
+				</div>
+			</div>
+	</div>
+	
+	<div class="container about" id="content">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+			<p class="lead aboutP">Pokémon Go (stylized as Pokémon GO) is a free-to-play location-based augmented reality mobile game developed by Niantic for iOS and Android devices. It was released in most regions of the world in July 2016. Making use of GPS and the camera of compatible devices, the game allows players to capture, battle, and train virtual creatures, called Pokémon, who appear on device screens as though in the real world. The game is free to play, although it supports in-app purchases of additional gameplay items. An optional companion Bluetooth wearable device, the Pokémon Go Plus, is planned for future release and will alert users when Pokémon are nearby. </p>
+			</div>
+		</div>
+	</div>
+	<div class="container about" id="downl">
+		<div class="row">
+			<h1 class="center" id="topRow">Donwload Pokemon Go</h1>
+			<p class="center"><a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=en"> <img src="google.png" id="google"/></a></p>
+		</div>
+	</div>
+
+
+	<script>
+	$(".").css("height",$(window).height());
+	
+	</script>
+	
+  </body>
+</html>
